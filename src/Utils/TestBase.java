@@ -12,6 +12,9 @@ import java.util.Properties;
 public class TestBase {
     private WebDriver webDriver;
     public WebDriver manageWebdriver()  {
+        System.out.println("This is test 1");
+        System.out.println("This is test 2");
+        System.out.println("This is test 3");
         InputStream is = null;
         Properties properties = new Properties();
         try {
