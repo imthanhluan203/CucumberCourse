@@ -15,6 +15,10 @@ public class TestBase {
         System.out.println("This is test 1");
         System.out.println("This is test 2");
         System.out.println("This is test 3");
+        System.out.println("This is test develop branch 1");
+        System.out.println("This is test develop branch 2");
+
+        System.out.println("This is test develop branch 3");
         InputStream is = null;
         Properties properties = new Properties();
         try {
